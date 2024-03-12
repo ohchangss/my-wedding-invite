@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>청첩장</title>
+  <style>
+    /* 반응형 디자인 */
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    /* 기본 스타일 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .progress-bar {
+      width: 100%;
+      height: 20px;
+      background-color: #f3f3f3;
+      text-align: center;
+      color: white;
+    }
+    .progress {
+      width: 33.33%;
+      height: 100%;
+      background-color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>박미영 &#10084; 김철수 결혼합니다</h1>
+    <img src="wedding.jpg" alt="웨딩 이미지">
+    <p>오는 5월 15일 토요일 오후 3시</p>
+    <p>세렌디피티 웨딩홀</p>
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+</body>
+</html>
